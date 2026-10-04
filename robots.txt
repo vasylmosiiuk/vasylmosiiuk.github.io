@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vasylmosiiuk.github.io/sitemap.xml

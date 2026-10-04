@@ -1,0 +1,31 @@
+# Vasyl Mosiiuk
+
+> Senior Software Engineer at UiPath, Lviv, Ukraine. Senior software engineer with 12+ years in .NET, including 6 years at UiPath building automation and process-discovery products end to end: Windows capture engines and desktop data pipelines, multi-tenant ASP.NET Core services on Azure, on-premises Kubernetes releases and, since 2026, AI agents in TypeScript and Python. Known for re-architecting unstable components, owning security and release work, and unblocking cross-team releases.
+
+Contact: vasyl.mosiiuk@gmail.com. Languages: Ukrainian (Native), English (Upper-intermediate, B2).
+
+## CV
+- [CV (HTML)](https://vasylmosiiuk.github.io/): full CV with schema.org Person data
+- [CV (PDF)](https://vasylmosiiuk.github.io/cv.pdf): printable two-page CV
+- [CV (Markdown)](https://vasylmosiiuk.github.io/llms-full.txt): full CV text for language models
+- [resume.json](https://vasylmosiiuk.github.io/resume.json): JSON Resume (schema v1.0.0)
+
+## Profiles
+- [LinkedIn](https://www.linkedin.com/in/vasylmosiiuk/)
+- [GitHub](https://github.com/vasylmosiiuk)
+
+## Experience
+- Senior Software Engineer, UiPath (Jun 2020 – Present): Enterprise automation and AI-agent platform.
+- Senior Software Developer, Abto Software (Mar 2019 – Jun 2020): Outsourced engineering for Gates, a US manufacturer of power-transmission belts.
+- Software Developer, inVerita (Apr 2018 – Jun 2019)
+- Software Developer, GlobalLogic (Jun 2017 – May 2018)
+- WPF/Xamarin Developer, Conscensia, for FlexyBox (Denmark) (Jul 2016 – Jun 2017)
+- Xamarin Developer, Byters srl (Jun 2016 – Mar 2017)
+- Xamarin Lead Developer, ArtBrains Software (Mar 2014 – Jul 2016)
+
+## Skills
+- Languages: C#, TypeScript, Python, SQL, C++ (interop)
+- Backend & cloud: ASP.NET Core, EF Core, SQL Server, SignalR, Redis, Azure (Blob Storage, Key Vault, App Insights), Docker, Kubernetes, Helm, Dapr, ArgoCD
+- Desktop & mobile: .NET 5–8, WPF, Win32 API, Low-level input hooks, COM / Office interop, UI Automation, Xamarin (iOS, Android), Electron, React, WiX installers
+- AI & data: LLM agents (memory, skills), OCR, PII detection and masking, Computer-vision pipelines, Claude Code
+- Engineering practice: Azure DevOps CI/CD, xUnit, Vitest, pytest, SonarQube, CVE remediation (Wiz, FOSSA), Production on-call, Technical design documents

@@ -1,0 +1,99 @@
+# Vasyl Mosiiuk
+**Senior Software Engineer** | .NET · TypeScript · Python · Windows internals · Cloud backends · AI agents
+
+Lviv, Ukraine · vasyl.mosiiuk@gmail.com · [linkedin.com/in/vasylmosiiuk](https://www.linkedin.com/in/vasylmosiiuk/) · [github.com/vasylmosiiuk](https://github.com/vasylmosiiuk)
+
+## Summary
+
+Senior software engineer with 12+ years in .NET, including 6 years at UiPath building automation and process-discovery products end to end: Windows capture engines and desktop data pipelines, multi-tenant ASP.NET Core services on Azure, on-premises Kubernetes releases and, since 2026, AI agents in TypeScript and Python. Known for re-architecting unstable components, owning security and release work, and unblocking cross-team releases.
+
+## Skills
+
+- **Languages:** C#, TypeScript, Python, SQL, C++ (interop)
+- **Backend & cloud:** ASP.NET Core, EF Core, SQL Server, SignalR, Redis, Azure (Blob Storage, Key Vault, App Insights), Docker, Kubernetes, Helm, Dapr, ArgoCD
+- **Desktop & mobile:** .NET 5–8, WPF, Win32 API, Low-level input hooks, COM / Office interop, UI Automation, Xamarin (iOS, Android), Electron, React, WiX installers
+- **AI & data:** LLM agents (memory, skills), OCR, PII detection and masking, Computer-vision pipelines, Claude Code
+- **Engineering practice:** Azure DevOps CI/CD, xUnit, Vitest, pytest, SonarQube, CVE remediation (Wiz, FOSSA), Production on-call, Technical design documents
+
+## Experience
+
+### Senior Software Engineer — UiPath (Jun 2020 – Present)
+_Lviv, Ukraine · Enterprise automation and AI-agent platform._
+
+**AI assistant and desktop agent** (May 2026 – Present)
+- Shipped user-scoped agent memory synced across devices, a Skills tab with import and export, and @ file references for UiPath Autopilot in Studio Web, Studio Desktop and Portal.
+- Built one skills-archive service shared by the Delegate desktop app and the embedded web app.
+- Added command-line start/stop so IT teams can run time-limited unattended capture through Intune.
+- _Tech: TypeScript, React, Electron, Python (FastAPI), C# interop_
+
+**Deployment tool for financial-services solutions** (Jan 2026 – May 2026)
+- Built a cross-platform Python CLI that installs vertical solutions onto customer tenants from one manifest-driven package: PKCE sign-in, Orchestrator and Data Fabric provisioning, data seeding, backup and restore.
+- Created build-once-deploy-many Azure DevOps pipelines and a Data Fabric schema shared across solutions; covered the CLI with 104 tests at 80% coverage.
+- Wrote the install guide and package specification, and onboarded new contributors.
+- _Tech: Python, Click, pytest, OAuth PKCE, Azure DevOps, UiPath Data Fabric, Orchestrator_
+
+**Cloud backend and on-premises releases for a process-discovery platform** (Jul 2024 – 2026)
+- Designed real-time remote control of desktop recorder fleets over SignalR with Redis-backed state, plus recording schedules and privacy allow and deny lists.
+- Delivered entitlement-based licensing enforcement and a generic PDD/SOP document-export platform in ASP.NET Core, removing 6.6k lines of legacy code.
+- Owned remediation of about 80 Wiz, FedRAMP and FOSSA findings, and drove a cross-team Dapr 1.11 → 1.15 upgrade that unblocked an Automation Suite release candidate.
+- As production on-call engineer, triaged 48 incidents and 13 SLO breaches and executed a speech-to-text provider cutover across 8 production regions.
+- _Tech: C#, ASP.NET Core, EF Core, SQL Server, SignalR, Redis, Azure, Kubernetes, Helm, Dapr_
+
+**Desktop activity recorders** (Jul 2022 – Dec 2025)
+- Built OS-level capture for Windows recorders: low-level input hooks, clipboard and file tracking, Office and Word interop, SAP GUI scripting, and a DLL-injection plugin shipped in the 23.4 release.
+- Moved the recorders to .NET 8 with self-contained installers and direct-to-blob image upload.
+- Ported Task Capture to macOS with multi-display capture and OCR on arm64 and x64.
+- _Tech: C#, .NET 8, WPF, Win32 API, COM interop, UI Automation, WiX_
+
+**Desktop data-processing pipeline** (Jun 2020 – Apr 2023)
+- Re-architected the component behind most customer-reported issues on TPL Dataflow, state machines and Polly; split it into controller and worker processes and moved storage from SQLite to LiteDB.
+- Integrated OCR, computer vision and PII masking in sandboxed processes; built continuous cloud upload within a 500 MB memory budget and CPU throttling driven by user activity.
+- Led the .NET 5 → 6 migration with self-contained builds and security builds for long-term-support release lines.
+- _Tech: C#, .NET 6, TPL Dataflow, Polly, LiteDB, Named pipes_
+
+### Senior Software Developer — Abto Software (Mar 2019 – Jun 2020)
+_Lviv, Ukraine · Outsourced engineering for Gates, a US manufacturer of power-transmission belts._
+
+- Modernised Gates' legacy VB6 modelling software for synchronous and asynchronous belt drives, rebuilding it as a .NET desktop application.
+- Built an AutoCAD plugin that models belt-tooth profiles for CNC machining of belt injection moulds, and a standalone WPF CAD tool that reduced Autodesk licence needs.
+- _Tech: C#, WPF, MvvmLight, AutoCAD .NET API, DWG/DXF, VB6 migration_
+
+### Software Developer — inVerita (Apr 2018 – Jun 2019)
+_Lviv, Ukraine_
+
+- Developed MediaShout 7, church presentation software for large venues that drives multiple displays with separate presenter, operator and prompter roles and covers most PowerPoint features, including .pptx import.
+- Built its DirectX rendering with HelixToolkit and SharpDX, a code generator that turns .fx shader sources into WPF shader effects, and document import and PDF export.
+
+### Software Developer — GlobalLogic (Jun 2017 – May 2018)
+_Lviv, Ukraine_
+
+- Developed an AI assistant for Foxconn's chairman that answers voice or text requests from historical reports, wiki pages and papers.
+- Built document indexing, AI processing and on-request lookup so the assistant could take over routine information gathering.
+
+### WPF/Xamarin Developer — Conscensia, for FlexyBox (Denmark) (Jul 2016 – Jun 2017)
+_Lviv, Ukraine_
+
+- Built a WPF point-of-sale and staff management system for FlexyBox bowling centres (DevExpress, SQL Server, Entity Framework, NHibernate), and a Xamarin.Forms employee scheduling and messaging app.
+
+### Xamarin Developer — Byters srl (Jun 2016 – Mar 2017)
+_Italy_
+
+- Built Xamarin apps for Italian clients: online courses with video and chat, a recycling-point finder and a calendar.
+
+### Xamarin Lead Developer — ArtBrains Software (Mar 2014 – Jul 2016)
+_Lviv, Ukraine_
+
+- Led a Xamarin team (code review, architecture, team management) delivering MyClubApp for Belgian fitness clubs, MasterBee food ordering (USA), Travelsafe NZ and the official Football24.ua app.
+- Built Windows IoT systems on Raspberry Pi for Belgian clients, Interactive Turnstile (RFID access control) and SmartLight (fitness-centre lighting), including device drivers and ASP.NET Web API backends.
+
+## Education
+
+- **Master's degree, Computer Software Engineering** — Lviv Polytechnic National University (2015 – 2016)
+
+## Languages
+
+Ukrainian (Native), English (Upper-intermediate, B2)
+
+## Open source
+
+Xamarin.Forms.VisualStateManager, XForms.MediaKit, MutatR
